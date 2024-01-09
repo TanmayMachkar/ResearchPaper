@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ResearchPaper/static/css/main.20afb11f.css",
+    "main.js": "/ResearchPaper/static/js/main.076c9e80.js",
+    "static/js/787.9c5e822e.chunk.js": "/ResearchPaper/static/js/787.9c5e822e.chunk.js",
+    "static/media/img.png": "/ResearchPaper/static/media/img.8d314c6eb13d123018f3.png",
+    "index.html": "/ResearchPaper/index.html",
+    "main.20afb11f.css.map": "/ResearchPaper/static/css/main.20afb11f.css.map",
+    "main.076c9e80.js.map": "/ResearchPaper/static/js/main.076c9e80.js.map",
+    "787.9c5e822e.chunk.js.map": "/ResearchPaper/static/js/787.9c5e822e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20afb11f.css",
+    "static/js/main.076c9e80.js"
+  ]
+}
