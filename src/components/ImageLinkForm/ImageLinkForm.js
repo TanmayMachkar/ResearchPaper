@@ -7,7 +7,7 @@ const ImageLinkForm = ({onInputChange, onButtonSubmit}) => {
 			<p className = 'f3'>
 				{'Faces Will be Detected Here'}
 			</p>
-			<div>
+			<div className = 'center'>
 				<div className = 'pa4 br3 shadow-5'>
 					<input className = 'f4 pa2 w-70 center' type = 'text' onChange = {onInputChange}/>
 					<button 
