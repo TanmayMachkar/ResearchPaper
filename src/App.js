@@ -2,9 +2,7 @@ import React, {Component} from 'react';
 import ParticlesBg from 'particles-bg';
 import './App.css';
 import Logo from './components/Logo/Logo';
-import Navigation from './components/Navigation/Navigation';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
-import Rank from './components/Rank/Rank';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 
 const returnClarifaiRequestOptions = (imageUrl) => {
@@ -87,9 +85,7 @@ class App extends Component{
   {
     return (
     <div className="App">
-      <Navigation />
       <Logo />
-      <Rank />
       <ImageLinkForm 
         onInputChange = {this.onInputChange} 
         onButtonSubmit = {this.onButtonSubmit} 
