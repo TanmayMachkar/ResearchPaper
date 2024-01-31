@@ -4,6 +4,7 @@ import './App.css';
 import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
+import SocialFollow from './SocialFollow';
 
 const returnClarifaiRequestOptions = (imageUrl) => {
   const PAT = '9a79ac5267f54073853713833271f89d';
@@ -91,6 +92,7 @@ class App extends Component{
         onButtonSubmit = {this.onButtonSubmit} 
       />
       <FaceRecognition box = {this.state.box} imageUrl = {this.state.imageUrl}/>
+      <SocialFollow />
       <ParticlesBg type="circle" bg={true}/>
     </div>
     );

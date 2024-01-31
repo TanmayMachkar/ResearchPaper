@@ -9,7 +9,7 @@ const ImageLinkForm = ({onInputChange, onButtonSubmit}) => {
 			</p>
 			<div className = 'center'>
 				<div className = 'pa4 br3 shadow-5'>
-					<input className = 'f4 pa2 w-70 center' type = 'text' onChange = {onInputChange}/>
+					<input placeholder = 'Paste image link' className = 'f4 pa2 w-70 center' type = 'text' onChange = {onInputChange}/>
 					<button 
 						className = 'ma4 pointer button'
 						onClick = {onButtonSubmit}	
